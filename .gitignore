@@ -1,0 +1,6 @@
+venv/
+env/
+.venv/
+static/
+staticfiles/
+db.sqlite3

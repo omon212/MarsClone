@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 85px;
+
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Logoningizning o'lchamiga qarab sozlang */
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+#language-select {
+    padding: 5px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.username {
+    margin-right: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.logout-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.p{
+    margin-left: 20px;
+}
+
+img{
+    margin-left: 25px;
+}
+
+.group{
+    margin-left: 70px;
+    margin-top: -40px;
+}
+
+
+.dashboard {
+    display: flex;
+    min-height: 100vh;
+    height: 741px;
+   
+
+}
+
+.big{
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 117px;
+    height: 741px;
+
+
+    background-color: #1e3a5f;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.menu-item{
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu-item span {
+    font-size: 16px;
+}
+
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #D9D9D9;
+    width: 1730px;
+    height: 600px;
+
+}
+
+.main-content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    width: 18%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.card-header img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.card-body h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card-footer button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-footer button:hover {
+    background-color: #00796b;
+}
+
+.menu-item{
+    width: 117px;
+    height: 106px;
+    background-color: #E33D0E;
+
+}
+
+.men{
+    margin-bottom: 50px;
+    padding-left: 10px;
+}
+
+.spa{
+    margin-top: 50px;
+    margin-left: -50px;
+}
+
+.item{
+    margin-top: 30px;
+}
+
+.span{
+    margin-top: -0px;
+    margin-left: 30px;
+    color: white;
+}
+
+.card{
+    width: 268px;
+    height: 333px;
+    border-radius: 25px;
+}
+
+.main-content{
+    gap: 20px;
+}
+
+
+
+
+.card-header{
+    background-color:#FFC02D;
+    width: 226px;
+    height: 170px;
+    margin-left: 5px;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.big{
+    gap: 20px;
+}
+
+.image2{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+.h2icon{
+    color: white;
+}
+
+.st{
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.student{
+    margin-left: 100px;
+    margin-top: -22px;
+}
+
+.clock{
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.cl{
+    margin-left: 100px;
+    margin-top: -22px; 
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 110px;
+}
+
+
+.group{
+    margin-left: 70px;
+    margin-top: -40px;
+}
